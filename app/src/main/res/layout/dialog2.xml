@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ttt"
+    android:layout_width="344dp"
+    android:layout_height="446dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:text="Contents"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="8">
+        <LinearLayout
+            android:id="@+id/main_layout_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_shutdown"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:text="DONE"
+        android:layout_weight="1"/>
+</LinearLayout>
